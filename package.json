@@ -1,0 +1,33 @@
+{
+  "name": "TEST",
+  "version": "1.0.0",
+  "description": "Une super application créée avec Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.2"
+  },
+  "build": {
+    "appId": "com.milkaa.monapp",
+    "productName": "MonApp",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
