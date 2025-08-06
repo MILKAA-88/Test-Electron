@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+}
+.cool {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
