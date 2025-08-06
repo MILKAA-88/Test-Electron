@@ -6,3 +6,9 @@ body {
   display: block;
   margin: 0 auto;
 }
+.btn {
+  color: white;
+  border-radius: 15px;
+  padding: 9px 18px;
+  background: #9AC8EB;
+}

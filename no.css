@@ -1,0 +1,14 @@
+body {
+  background: black;
+  text-align: center;
+}
+.no {
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.exi {
+  background: none;
+  border: none;
+  color: white;
+}
