@@ -13,7 +13,7 @@ function createWindow() {
   });
   
   Menu.setApplicationMenu(null);
-  win.loadFile('start.html');
+  win.loadFile('index.html');
   
   ipcMain.on('load-page', (event, page) => {
     win.loadFile(page);
